@@ -1,0 +1,252 @@
+/* =========================
+   BODY
+========================= */
+
+body{
+    background:#f4f6f9;
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-custom{
+    background:#fff;
+    box-shadow:0 4px 20px rgba(0,0,0,.05);
+    padding:15px 30px;
+}
+
+.nav-logo{
+    width:45px;
+    margin-right:12px;
+}
+
+.brand-text{
+    font-size:2rem;
+    font-weight:700;
+    color:#183B6B;
+}
+
+/* =========================
+   CARD PRINCIPAL
+========================= */
+
+.search-card{
+    background:#fff;
+    max-width:1200px;
+    margin:40px auto;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.search-header{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.search-header h1{
+    color:#183B6B;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.search-header p{
+
+    color:#6c757d;
+    font-size:1.05rem;
+    margin-top:10px;
+}
+
+/* =========================
+   BUSCADOR
+========================= */
+
+.search-box{
+    position:relative;
+    margin-bottom:30px;
+}
+
+.search-box i{
+    position:absolute;
+    left:20px;
+    top:18px;
+    color:#183B6B;
+    font-size:1.1rem;
+}
+
+.search-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    background:#f4f6f9;
+    border-radius:16px;
+    padding:15px 15px 15px 55px;
+    font-size:1rem;
+    transition:.2s;
+}
+
+.search-box input:focus{
+    box-shadow:0 0 0 3px rgba(22,191,253,.15);
+}
+
+/* =========================
+   ESTADO VACIO
+========================= */
+
+.empty-state{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.empty-state i{
+    font-size:4rem;
+    color:#183B6B;
+    margin-bottom:15px;
+}
+
+.empty-state h4{
+    color:#183B6B;
+    font-weight:700;
+}
+
+.empty-state p{
+    color:#6c757d;
+}
+
+/* =========================
+   TABLA
+========================= */
+
+.modern-table{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.modern-table thead{
+    background:#183B6B;
+    color:#fff;
+}
+
+.modern-table th{
+    border:none;
+    padding:18px;
+}
+
+.modern-table td{
+    vertical-align:middle;
+    padding:18px;
+}
+
+.modern-table tbody tr:hover{
+    background:#f8f9fa;
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.status-active{
+    background:#d4edda;
+    color:#155724;
+    padding:8px 16px;
+    border-radius:50px;
+    font-weight:600;
+    display:inline-block;
+}
+
+.status-expired{
+    background:#f8d7da;
+    color:#721c24;
+    padding:8px 16px;
+    border-radius:50px;
+    font-weight:600;
+    display:inline-block;
+}
+
+/* =========================
+   BOTON SALIR
+========================= */
+
+.btn-exit{
+    background:#dc3545;
+    color:#fff;
+    border:none;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.btn-exit:hover{
+    color:#fff;
+    text-decoration:none;
+    background:#c82333;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer-custom{
+    background:#fff;
+    margin-top:40px;
+    padding:40px 20px;
+    text-align:center;
+    box-shadow:0 -5px 20px rgba(0,0,0,.05);
+}
+
+.footer-logo{
+    width:90px;
+    margin-bottom:10px;
+}
+
+.footer-custom h5{
+    color:#183B6B;
+    font-weight:700;
+}
+
+.footer-custom p{
+    color:#6c757d;
+}
+
+.social-links{
+    margin-top:15px;
+}
+
+.social-links a{
+    color:#183B6B;
+    font-size:2rem;
+    margin:0 10px;
+    transition:.2s;
+}
+
+.social-links a:hover{
+    color:#16BFFD;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+    .search-card{
+        margin:20px;
+        padding:25px;
+    }
+
+    .search-header h1{
+        font-size:2rem;
+    }
+
+    .brand-text{
+        font-size:1.4rem;
+    }
+}
