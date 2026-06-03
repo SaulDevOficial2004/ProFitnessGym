@@ -2,7 +2,7 @@
 //Configuramos la conexion a la base de datos
 $localhost = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $dbname = "profitnessgym";
 
 //Hacemos el pase de caracteres en formato utf8 para la codificacion de los mismos
