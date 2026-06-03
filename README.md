@@ -20,3 +20,20 @@ Sistema de administración para gimnasios.
 - Bootstrap 4
 - SweetAlert2
 - Toastify
+
+## Configuración de Base de Datos
+
+1. Copiar:
+
+php_action/conn_db_example.php
+
+2. Renombrar a:
+
+php_action/conn_db.php
+
+3. Configurar credenciales de MySQL:
+
+$localhost
+$username
+$password
+$dbname
